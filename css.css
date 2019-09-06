@@ -1,0 +1,45 @@
+body {
+    background-color: #ffc600
+}
+
+header {
+    background-color:#7d0093
+}
+
+footer {
+    background-color: #ffc600
+}
+#imagens_da_home {
+    display: flex;
+    Justify-content: space-between;
+    flex-direction: row;
+
+}
+#imagens_da_home img {
+    width: 1200px;
+    height: 700px;
+    
+
+}
+/**/
+
+footer img  {
+   width: 1%;
+    height: 1%;
+}
+
+#logoarea img {
+    margin:0 auto;
+    display: flex;
+    justify-content:center;
+}
+    
+#logoarea h2 {
+    font-size: 10em;
+}
+
+}
+footer a {
+    font-size: 5em;
+}
+
