@@ -1,20 +1,38 @@
 body {
-    background-color: #ffc600
+
+    background-color: #7d0093
+    
+} 
+nav{
+    
+    text-align: center;
+    padding: 1em;
 }
 
 header {
-    background-color:#7d0093
+    background-color: #7d0093;
+    background-image: url(img/mini_CA_CA_17.04.01-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 footer {
-    background-color: #ffc600
+    background-color: #7d0093
 }
 #imagens_da_home {
+    
     display: flex;
     Justify-content: space-between;
     flex-direction: row;
 
 }
+
+#imagens_da_home img {
+    background-color: #7d0093
+}
+
+
 #imagens_da_home img {
     margin: 0 auto;
     width: 1200px;
@@ -27,6 +45,9 @@ footer img  {
     height: 1%;
 }
 
+#logoarea{
+    
+}
 #logoarea img {
     margin:0 auto;
     display: flex;
@@ -45,14 +66,54 @@ footer img  {
 
 footer a {
     font-size: 5em;
+    justify-content: flex-end;
 }
 
 #header-principais {
     background-color: #ffc600
+
 }
 
 .menu-de-navegação {
     display: flex;
     list-style-type: none;
     text-decoration: none;
+}
+
+.text{
+    font-size: 5em;
+} 
+
+#header-principais {
+    text-align: center;
+}
+
+#header-principais {
+    display: flex;
+
+}
+
+footer img {
+    
+}
+
+
+nav div ul li > img{
+    width: 60%;
+    padding: 0.2em;
+}
+nav div ul > li{
+    width: 100%;
+    text-align: center;
+}
+NAV ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: 1.5em;
+    font-family: 'Limelight', cursive;
+    align-items: flex-end;
+    justify-content: space-between;
+    list-style-type: none;
+    background-color: transparent;
 }
