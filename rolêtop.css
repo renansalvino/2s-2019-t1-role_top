@@ -21,7 +21,6 @@ footer {
     background-color: #7d0093
 }
 #imagens_da_home {
-    
     display: flex;
     Justify-content: space-between;
     flex-direction: row;
@@ -40,14 +39,12 @@ footer {
     
 }
 
-footer img  {
-   width: 1%;
-    height: 1%;
+#inscreve a img {
+   width: 2%;
+    height: 2%;
 }
-
-#logoarea{
     
-}
+
 #logoarea img {
     margin:0 auto;
     display: flex;
@@ -63,15 +60,39 @@ footer img  {
     font-size: 10em;
 }
 
-
-footer a {
-    font-size: 5em;
-    justify-content: flex-end;
+footer > div {
+    background-color: #ffc600
 }
 
-#header-principais {
+footer > div {
+    font-size: 0,5em;
+    justify-content: flex-end;
+}
+footer img {
+    width: 0,5px;
+    height: 0,5px;
+}
+
+footer a {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 4em; 
+}
+#daletra {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 4em;
+
+}
+#leprincipais {
     background-color: #ffc600
 
+}
+
+#leprincipais hgroup {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .menu-de-navegação {
@@ -83,19 +104,6 @@ footer a {
 .text{
     font-size: 5em;
 } 
-
-#header-principais {
-    text-align: center;
-}
-
-#header-principais {
-    display: flex;
-
-}
-
-footer img {
-    
-}
 
 
 nav div ul li > img{
@@ -110,10 +118,13 @@ NAV ul{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    font-size: 1.5em;
+    font-size: 2em;
     font-family: 'Limelight', cursive;
     align-items: flex-end;
     justify-content: space-between;
     list-style-type: none;
     background-color: transparent;
 }
+
+}
+

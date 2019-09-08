@@ -1,0 +1,30 @@
+body {
+    background-color:  #7d0093
+}
+
+nav div ul li > img{
+    width: 60%;
+    padding: 0.2em;
+}
+nav div ul > li{
+    width: 100%;
+    text-align: center;
+}
+NAV ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: 1.5em;
+    font-family: 'Limelight', cursive;
+    align-items: flex-end;
+    justify-content: space-between;
+    list-style-type: none;
+    background-color: #ffc600;
+    text-decoration-color: white;
+}
+
+nav img {
+    margin: auto;
+    width: 528px;
+    height: 413px;
+}

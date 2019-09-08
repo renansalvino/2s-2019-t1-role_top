@@ -1,0 +1,105 @@
+body {
+    background-color: #7d0093
+}
+nav div ul li > img{
+    width: 60%;
+    padding: 0.2em;
+}
+nav div ul > li{
+    width: 100%;
+    text-align: center;
+}
+NAV ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: 1.5em;
+    font-family: 'Limelight', cursive;
+    align-items: flex-end;
+    justify-content: space-between;
+    list-style-type: none;
+    background-color: #ffc600;
+    text-decoration-color: white;
+}
+
+nav img {
+    margin: auto;
+    width: 528px;
+    height: 413px;
+}
+
+nav img {
+    display: flex;
+    justify-content: center
+}
+
+/* final da nav */
+
+#nomegaleria {
+    background-color: #ffc600;
+    font-size: 5em;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+  
+#galery-container1 {
+    display: flex;
+    flex-direction: row;
+      justify-content: space-around;
+  } 
+
+#galery-container2{
+      justify-content: space-around;
+
+}
+
+#galery-container3{
+      justify-content: space-around;
+
+}
+
+  .flex-group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flex-group.galery-section {
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+    /* ajustar a galeria/fim */
+
+/* .section-container div img( faz alguma coisa com as fotos da galeria )*/
+#inscreve a img {
+    width: 1.5%;
+     height: 1.5%;
+
+}
+
+footer > div {
+    background-color: #ffc600;
+}
+
+footer > div {
+    font-size: 0,5em;
+    justify-content: flex-end;
+}
+footer img {
+    width: 0,3px;
+     height: 0,3px;
+}
+
+footer a {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 3em; 
+    }
+
+    #daletra {
+        display: flex;
+        justify-content: flex-end;
+        font-size: 3em; 
+
+        }
