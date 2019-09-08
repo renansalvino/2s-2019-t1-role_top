@@ -6,6 +6,7 @@ body {
 body {
     background-color: #7d0093
 }
+
 nav div ul li > img{
     width: 60%;
     padding: 0.2em;
@@ -26,7 +27,6 @@ NAV ul{
     justify-content: space-between;
     list-style-type: none;
     background-color: #ffc600;
-    text-decoration-color: white;
 }
 
 nav img {
@@ -37,48 +37,38 @@ nav img {
 
 nav img {
     display: flex;
-    justify-content: center
+    justify-content: center;
 }
 
-/* final da nav */
-
-#nomegaleria {
+input {
+    
     background-color: #ffc600;
-    font-size: 2.5em;
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
-  
-#galery-container1 {
+
+p {
+    font-size: 1em
+}
+
+select {
+    background-color: #ffc600
+}
+
+#clica {
+    background-color: #ffc600;
+
+}
+
+#clica p {
+    font-size: 1em;
+
+}
+
+#clica {
     display: flex;
-    flex-direction: row;
-      justify-content: space-around;
-  } 
-
-#galery-container2{
-      justify-content: space-around;
-
+    justify-content: flex-end;
 }
 
-#galery-container3{
-      justify-content: space-around;
-
-}
-
-  .flex-group {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.flex-group.galery-section {
-    justify-content: space-evenly;
-    align-items: center;
-
-}
-    /* ajustar a galeria/fim */
-
-/* .section-container div img( faz alguma coisa com as fotos da galeria )*/
 #inscreve a img {
     width: 1.5%;
      height: 1.5%;
@@ -115,11 +105,6 @@ address {
     font-size: 1.5em;
 }
 
-address a {
+address {
     text-align: center;
 }
-
-/* arrumar a galeria e a partes das plantas */
-/* dar uma fonte as letras */
-/* Fazer paginas do admin */
-/* arrumar as imagens da home no photoshop */

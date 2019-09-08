@@ -1,4 +1,9 @@
 body {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
 
     background-color: #7d0093
     
@@ -76,14 +81,18 @@ footer img {
 footer a {
     display: flex;
     justify-content: flex-end;
-    font-size: 4em; 
+    font-size: 2em; 
 }
 #daletra {
     display: flex;
     justify-content: flex-end;
-    font-size: 4em;
+    font-size: 2em;
 
 }
+
+}
+
+
 #leprincipais {
     background-color: #ffc600
 
@@ -102,7 +111,7 @@ footer a {
 }
 
 .text{
-    font-size: 5em;
+    font-size: 3em;
 } 
 
 
@@ -115,6 +124,8 @@ nav div ul > li{
     text-align: center;
 }
 NAV ul{
+    margin: 0%;
+    padding: 0%;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -126,5 +137,11 @@ NAV ul{
     background-color: transparent;
 }
 
+address {
+    font-size: 1.5em;
+}
+
+address a {
+    text-align: center;
 }
 
