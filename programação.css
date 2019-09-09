@@ -1,0 +1,98 @@
+body {
+    background-color: #7d0093
+}
+.mes {
+
+font: bold 25px verdana;
+
+background: #f5f5f5;
+
+text-align: center;
+
+line-height: 40px;				
+
+height: 40px;
+
+width: 854px;
+
+}
+
+.semana {
+
+font: bold 20px verdana;
+
+background: #f5f5f5;
+
+text-align: center;
+
+line-height: 25px;						  
+
+height: 25px;
+
+width: 120px;
+
+}
+
+.dia {
+
+background: #f5f5f5;
+
+font: 20px verdana;				  
+
+text-align: center;
+
+height: 100px;
+
+width: 100px;
+
+}
+
+.evento {
+
+position: relative;
+
+font: 9px verdana;
+
+color: #C30;
+
+right: -7px;
+
+top: -9px;			  
+
+}
+
+.text{
+font-size: 3em;
+} 
+
+
+nav div ul li > img{
+width: 60%;
+padding: 0.2em;
+}
+nav div ul > li{
+width: 100%;
+text-align: center;
+}
+NAV ul{
+margin: 0%;
+padding: 0%;
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+font-size: 2em;
+font-family: 'Limelight', cursive;
+align-items: flex-end;
+justify-content: space-between;
+list-style-type: none;
+   background-color: #ffc600;
+}
+
+#calendario {
+    margin:center;
+    padding: center;
+
+    display: flex;
+    justify-content: center;
+
+}
