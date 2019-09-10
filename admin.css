@@ -1,0 +1,13 @@
+table, th, td {
+    border: 1px solid black;
+  }
+#dash td img{
+ padding: 7px;
+  width: 20px;
+  height: 20px;
+}
+
+#dash td {
+  height: 50px;
+  letter-spacing: bottom;
+}

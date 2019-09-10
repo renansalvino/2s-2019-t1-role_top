@@ -17,17 +17,14 @@ nav{
 header {
     background-color: #7d0093;
     background-image: url(img/mini_CA_CA_17.04.01-1.jpg);
-    background-repeat: no-repeat;
+   background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-footer {
-    background-color: #7d0093
-}
 #imagens_da_home {
     display: flex;
-    Justify-content: space-between;
+    Justify-content: space-evenly;
     flex-direction: row;
 
 }
@@ -36,8 +33,41 @@ footer {
     background-color: #7d0093
 }
 
+.foto {
+    margin: 2.5em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/foto\ da\ home\ page\ 1.jpg);
+    width: 20em;
+    height: 20em;
+}
+
+.foto1 {
+    margin: 2.5em;
+    border-color: black;
+    border: 2px 2px 2px 2px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/foto\ da\ home\ page\ 2.jpg);
+    width: 20em;
+    height: 20em;
+}
+
+.foto2{
+    margin: 2.5em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/foto\ da\ home\ page\ 3.jpg);
+    width: 20em;
+    height: 20em;
+}
+
 
 #imagens_da_home img {
+    padding: 1em;
     margin: 0 auto;
     width: 1200px;
     height: 700px;
@@ -45,7 +75,7 @@ footer {
 }
 
 #inscreve a img {
-   width: 2%;
+    width: 2%;
     height: 2%;
 }
     
@@ -60,7 +90,7 @@ footer {
     width: 528px;
     height: 413px;
 }
-    
+
 #logoarea h2 {
     font-size: 10em;
 }
@@ -76,6 +106,10 @@ footer > div {
 footer img {
     width: 0,5px;
     height: 0,5px;
+}
+
+footer {
+    background-color: #7d0093
 }
 
 footer a {
@@ -123,6 +157,7 @@ nav div ul > li{
 NAV ul{
     margin: 0%;
     padding: 0%;
+    text-decoration: WHITE;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -142,3 +177,16 @@ address a {
     text-align: center;
 }
 
+@media (max-width:650px) {
+
+#imagens_da_home img {
+
+    width: 50%;
+    height: 50%;
+    
+    
+}
+
+.section-container a  {
+    text-align: center;
+}
