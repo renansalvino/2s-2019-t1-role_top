@@ -31,7 +31,7 @@ nav div ul > li{
   width: 100%;
   text-align: center;
 }
-NAV ul{
+nav ul{
   margin: 0%;
   padding: 0%;
   display: flex;
@@ -102,11 +102,6 @@ footer a {
 
 }
 
-#inscreve a {
-    font-family: 'Century Gothic', sans-serif;
-
-}
-
 #inscreve a img {
   width: 2%;
   height: 2%;
@@ -116,6 +111,25 @@ footer a {
   color: white;
   font-size: 2em;
 }
+
+#dash td img{
+    padding: 7px;
+     width: 20px;
+     height: 20px;
+   }
+
+   #dash td img{
+    padding: 7px;
+     width: 20px;
+     height: 20px;
+   }
+
+#dash {
+    display: flex;
+    justify-content: center;
+}
+
+
 
 body{
   font-family: 'Century Gothic', sans-serif;

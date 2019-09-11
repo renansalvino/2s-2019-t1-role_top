@@ -40,9 +40,7 @@ nav img {
     justify-content: center;
 }
 
-input {
-    
-    background-color: #ffc600;
+
 
 }
 
@@ -50,8 +48,9 @@ p {
     font-size: 1em
 }
 
-select {
+#clica p {
     background-color: #ffc600
+}
 }
 
 #clica {
@@ -142,3 +141,21 @@ main {
     margin: 0%;
     padding: 0%;
 }
+
+.cavento {
+    color: white;
+    text-align: center;
+    font-size: 2em;
+}
+
+#daletra {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.5em; 
+
+    }
+
+    .bt-common-menu a{
+        color: #fff;
+        text-decoration: none;
+    }

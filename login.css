@@ -74,6 +74,7 @@ footer a {
 
         }
 
+
 address {
     font-size: 1.5em;
 }
@@ -125,4 +126,13 @@ nav h2 {
 main {
     margin: 0%;
     padding: 0%;
+}
+
+body{
+    font-family: 'Century Gothic', sans-serif;
+}
+
+.bt-common-menu a{
+    color: #fff;
+    text-decoration: none;
 }

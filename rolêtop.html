@@ -8,20 +8,26 @@
     <title>Rolê Top</title>
     <link href="img/logo (2).png" rel="icon" type="image/x-icon" />
     <link rel="stylesheet" href="rolêtop.css">
+    <script src="https://kit.fontawesome.com/349a64cb04.js"></script>
 </head>
 
 <body>
-
     <header>
         <nav>
-            <div class="text.n">
+            <div class="text-n">
                 <ul>
-                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" class="sob" href="rolêtop.html">Home</a></li>
-                <li class="bt-common-menu"><a onclick="toggleMobileMenu()" class="sob" href="cadastro.html">Cadastro do cliente</a></li>
-                <li class="bt-common-menu"><a onclick="toggleMobileMenu()" class="sob" href="galeria.html">Galeria</a></li>
-                <li class="bt-common-menu"><a onclick="toggleMobileMenu()" class="sob" href="evento.html">Cadastro do evento</a></li>
-                <li class="bt-common-menu"><a onclick="toggleMobileMenu()" class="sob" href="programação.html">Programação</a></li>
-                <li class="bt-common-menu"><a onclick="toggleMobileMenu()" class="sob" href="login.html">Login do cliente</a></li>
+                    <li id="bt-mobile-menu" >
+                        
+                        <a href="javascript: void (0);" class= "icon" onclick= "toggleMobileMenu ()">
+                            <i class="fa fa-bars"> </i>
+                        </a>
+                    </li>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()"  class="active" href="rolêtop.html">Home</a></li>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()"  href="cadastro.html">Cadastro do cliente</a></li>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()"  href="galeria.html">Galeria</a></li>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()"  href="evento.html">Cadastro do evento</a></li>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()"  href="programação.html">Programação</a></li>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()"  href="login.html">Login do cliente</a></li>
                 </ul>
             </div>
         </nav>
@@ -34,7 +40,7 @@
     </header>
     <main>
         <section id="principais">
-            <div id="leprincipais">
+            <div class="leprincipais">
                 <hgroup>
                     <h2> Descrição do espaço/</h2>
                     <h2>Quem somos nós/</h2>
@@ -47,10 +53,6 @@
                     <div class="foto"></div>
                     <div class="foto1"></div>
                     <div class="foto2"></div>
-
-                    <!-- <img src="img/imagem da home para restaurar 2.jpg" alt="imagem 1 do role top da home" title="onde judas perdeu as botas" whidt>
-                    <img src="img/restaurar 2.jfif" alt="imagem 2 do role top da home " title="onde judas perdeu as meias">
-                    <img src="img/restaaurar 3.jfif" alt="imagem 3 do role top da home " title="onde judas perdeu a unha"> -->
                 </div>
                 <div class="text">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ullam quisquam, neque animi omnis maxime rerum dolorum in corrupti perspiciatis aspernatur sit. Alias obcaecati quisquam officiis perferendis quibusdam nulla. Necessitatibus.</p>
@@ -58,7 +60,7 @@
             </div>
         </section>
         <div id="daletra">
-           <link href="cadastro.html"> <p>Organize seu evento aqui!Cadastre-se.</p>
+           <a href="cadastro.html">Organize seu evento aqui!Cadastre-se.</a>
         </div>
 
     </main>
@@ -85,6 +87,35 @@
                 <a href="#">Voltar para o topo!</a>
             </div>
     </footer>
+    <script>
+        function toggleMobileMenu() {
+            var ul = document.querySelector("nav ul");
+            var commonButtons = document.querySelectorAll("nav .bt-common-menu");
+            var icon = document.querySelector(".icon > i");
+
+            ul.classList.toggle("mobile-mode");
+
+            if (icon.classList.contains("fa-bars")) {
+                icon.classList.remove("fa-bars");
+                icon.classList.remove("fa");
+
+                icon.classList.add("fas");
+                icon.classList.add("fa-skull");
+            } else {
+                icon.classList.remove("fas");
+                icon.classList.remove("fa-skull");
+
+                icon.classList.add("fa");
+                icon.classList.add("fa-bars");
+            }
+
+            for (var button of commonButtons) {
+                button.classList.toggle("active");
+            }
+
+        }
+        
+    </script>
 </body>
 
 </html>

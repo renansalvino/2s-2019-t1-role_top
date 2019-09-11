@@ -67,12 +67,25 @@ footer a {
     font-size: 1.5em; 
     }
 
-    #daletra {
+    #clica a {
+        background-color: #ffc600
+    }
+    }
+    
+    #clica {
+        background-color: #ffc600;
+    
+    }
+    
+    #clica a {
+        font-size: 1.5em;
+    
+    }
+    
+    #clica {
         display: flex;
         justify-content: flex-end;
-        font-size: 1.5em; 
-
-        }
+    }
 
 address {
     font-size: 1.5em;
@@ -125,4 +138,18 @@ nav h2 {
 main {
     margin: 0%;
     padding: 0%;
+}
+
+body{
+    font-family: 'Century Gothic', sans-serif;
+}
+
+ #clica a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.bt-common-menu a{
+    color: #fff;
+    text-decoration: none;
 }

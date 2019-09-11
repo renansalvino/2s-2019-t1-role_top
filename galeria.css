@@ -133,18 +133,79 @@ address a {
     display: flex;
     flex-flow: column;
     width: 10%;
-    padding-left: 960px;
+    float: left;
 }
 
-#plantatotal {
-    width:250px;
-    height: 250px;
+.parte1{
+    margin: 0px auto;
+    display: table;
+    width: 100%;
+}
 
+.alinha2{
+    display: inline-block;
+    margin-left: 400px;
+}
+
+.plantasituacao{
+    float: right;
+    margin-right: 450px;
+}
+
+.plantahumanizada{
+    float: left;
+    margin-left: 450px;
+}
+
+
+.alinha{
+    display: inline-block;
+    margin-left: 170px;
 }
 
 
 
-/* arrumar a galeria e a partes das plantas */
-/* dar uma fonte as letras */
-/* Fazer paginas do admin */
-/* arrumar as imagens da home no photoshop */
+#parte2{
+    margin: 0px auto;
+    display: table;
+    width: 100%;
+}
+
+
+
+body{
+    font-family: 'Century Gothic', sans-serif;
+}
+
+.bt-common-menu a{
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width: 625px) {
+    nav #bt-mobile-menu {
+        display: block;
+    }
+    nav .bt-common-menu {
+        display: none;
+    }
+    nav .bt-common-menu.active {
+        display: block;
+    }
+    nav ul.mobile-mode {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+@media (max-width: 485px) {
+    .galery-container img {
+        width: 200px;;
+    }
+
+    @media (max-width: 485px) {
+        . img {
+            width: 200px;;
+        }
+
+
